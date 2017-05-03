@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ClientTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2017-02-26T16:01:53" hostname="vagabondPC" time="1.299">
+  <properties/>
+  <testcase name="Client_instantiatesWithDescription_String" classname="ClientTest" time="0.212"/>
+  <testcase name="equals_returnsTrueIfNamesAretheSame" classname="ClientTest" time="0.02"/>
+  <testcase name="save_savesStylistIdIntoDB_true" classname="ClientTest" time="0.275"/>
+  <testcase name="save_returnsTrueIfNamesAretheSame" classname="ClientTest" time="0.072"/>
+  <testcase name="update_updatesClientName_true" classname="ClientTest" time="0.087"/>
+  <testcase name="getStylistId_returnsCorrectStylistId_1" classname="ClientTest" time="0.057"/>
+  <testcase name="getId_clientsInstantiateWithAnID_1" classname="ClientTest" time="0.14"/>
+  <testcase name="Client_instantiatesCorrectly_true" classname="ClientTest" time="0.037"/>
+  <testcase name="all_returnsAllInstancesOfClient_true" classname="ClientTest" time="0.122"/>
+  <testcase name="save_assignsIdToObject" classname="ClientTest" time="0.096"/>
+  <testcase name="delete_deletesClient_true" classname="ClientTest" time="0.08"/>
+  <testcase name="find_returnsClientWithSameId_secondClient" classname="ClientTest" time="0.075"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+</testsuite>

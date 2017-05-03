@@ -1,0 +1,125 @@
+
+html body {
+	background-color:#ECF0F5;
+}
+.navbar-blue{
+	background-color: #3C8DBC;
+	
+}
+.navbar-brand{
+	color:white;
+}
+
+.sidebar {
+  position: fixed;
+  top: 30px;
+	/*margin-top:20px;*/
+  bottom: 0;
+  left: 0;
+	height:100vh;
+  z-index: 1000;
+  padding: 20px;
+  overflow-x: hidden;
+  overflow-y: auto;  Scrollable contents if viewport is shorter than content. 
+  border-right: 1px solid #1E282C;
+	background-color: #222D32;
+	color:#DBDBDB;
+}
+
+/* Sidebar navigation */
+.sidebar {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.sidebar .nav {
+  margin-bottom: 20px;
+}
+
+.sidebar .nav-item {
+  width: 100%;
+}
+
+.sidebar .nav-item + .nav-item {
+  margin-left: 0;
+}
+
+.sidebar .nav-link {
+  border-radius: 0;
+}
+
+.sidebar a{
+	text-decoration:none;
+	list-style: none;
+	color:#DBDBDB;
+	width:100%;
+}
+.sidebar li a:hover{
+	background-color:#1E282C;
+	border-left:3px solid #3c8dbc;
+	
+	
+}
+
+
+/*
+ * Dashboard
+ */
+
+ /* Placeholders */
+
+.user-panel a{
+	color:#DBDBDB;
+}
+.user-panel {
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  overflow: hidden;
+  margin-top:30px;
+}
+.user-panel:before,
+.user-panel:after {
+  content: " ";
+  display: table;
+}
+.user-panel:after {
+  clear: both;
+}
+.user-panel > .image > img {
+  width: 100%;
+  max-width: 45px;
+  height: auto;
+}
+.user-panel > .info {
+  padding: 5px 5px 5px 15px;
+  line-height: 1;
+  position: absolute;
+  left: 55px;
+}
+.user-panel > .info > p {
+  font-weight: 600;
+  margin-bottom: 9px;
+}
+.user-panel > .info > a {
+  text-decoration: none;
+  padding-right: 5px;
+  margin-top: 3px;
+  font-size: 11px;
+}
+.user-panel > .info > a > .fa,
+.user-panel > .info > a > .ion,
+.user-panel > .info > a > .glyphicon {
+  margin-right: 3px;
+}
+
+.content{
+  position:absolute;
+    left:30%;
+    top:10%;
+/*  width:100%;*/
+}
+
+.btnz form{
+	display:inline-block;
+}

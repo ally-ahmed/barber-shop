@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="StylistTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2017-02-26T16:01:54" hostname="vagabondPC" time="0.605">
+  <properties/>
+  <testcase name="stylist_instantiatesCorrectly_true" classname="StylistTest" time="0.013"/>
+  <testcase name="equals_returnsTrueIfNamesAretheSame" classname="StylistTest" time="0.015"/>
+  <testcase name="getId_stylistsInstantiateWithAnId_1" classname="StylistTest" time="0.049"/>
+  <testcase name="find_returnsStylistWithSameId_secondStylist" classname="StylistTest" time="0.077"/>
+  <testcase name="all_returnsAllInstancesOfCategory_true" classname="StylistTest" time="0.102"/>
+  <testcase name="getClients_retrievesAllClientsFromDatabase_clientsList" classname="StylistTest" time="0.107"/>
+  <testcase name="save_savesIntoDatabase_true" classname="StylistTest" time="0.151"/>
+  <testcase name="save_assignsIdToObject" classname="StylistTest" time="0.066"/>
+  <testcase name="getName_stylistInstantiatesWithName_me" classname="StylistTest" time="0.013"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

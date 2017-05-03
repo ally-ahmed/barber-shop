@@ -1,0 +1,1 @@
+web: ./build/install/barber_shop/bin/barber_shop

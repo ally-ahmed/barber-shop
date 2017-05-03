@@ -1,0 +1,68 @@
+<div class="panel panel-primary">
+	  <div class="panel-heading">
+			<h3 class="panel-title">All Stylists</h3>
+	  </div>
+	  <div class="panel-body">
+			<table id="example" class=" hover table table-striped table-bordered table-responsive" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Office</th>
+                <th>Age</th>
+                <th>Start date</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Office</th>
+                <th>Age</th>
+                <th>Start date</th>
+                <th>Salary</th>
+            </tr>
+        </tfoot>
+        <tbody>
+           	#foreach($stylist in $stylists)
+           	<tr>
+           		<td><a href="/stylists/$stylist.getId()">$stylist.getName()</a></td>
+           		<td>Integration Specialist</td>
+              <td>New York</td>
+              <td>61</td>
+              <td>2012/12/02</td>
+              <td>$372,000</td>
+           	</tr>
+           	#end
+            <tr>
+                <td>Tiger Nixon</td>
+                <td>Stylist</td>
+                <td>Edinburgh</td>
+                <td>61</td>
+                <td>2011/04/25</td>
+                <td>$320,800</td>
+            </tr>
+            <tr>
+                <td>Garrett Winters</td>
+                <td>Stylist</td>
+                <td>Tokyo</td>
+                <td>63</td>
+                <td>2011/07/25</td>
+                <td>$170,750</td>
+            </tr>
+            <tr>
+                <td>Ashton Cox</td>
+                <td>Junior Stylist</td>
+                <td>San Francisco</td>
+                <td>66</td>
+                <td>2009/01/12</td>
+                <td>$86,000</td>
+            </tr>
+           
+           
+        </tbody>
+    </table>
+	  </div>
+</div>
+

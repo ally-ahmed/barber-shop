@@ -1,0 +1,35 @@
+<div class="panel panel-primary">
+	  <div class="panel-heading">
+			<h3 class="panel-title">$stylist.getName()</h3>
+	  </div>
+	  <div class="panel-body">
+			<table id="example" class=" hover table table-striped table-bordered table-responsive" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Contact</th>
+                <th>Appointment</th>
+           
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+              <th>Name</th>
+                <th>Contact</th>
+                <th>Appointment</th>
+                
+            </tr>
+        </tfoot>
+        <tbody>
+           	#foreach($client in $stylist.getClients())
+           	<tr>
+           		<td><a href="/stylists/$stylist.getId()/clients/$client.getId()">$client.getName()</a></td>
+           		<td>070707707</td>
+              <td>2017/4/02</td>
+           	</tr>
+           	#end
+      
+        </tbody>
+    </table>
+	  </div>
+</div>
